@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2><i class="fas fa-infinity"></i> Admin</h2>
+            <button class="new-project-btn">+ New Project</button>
+            <nav>
+                <ul>
+                    <li><i class="fas fa-tachometer-alt"></i> Dashboard</li>
+                    <li><i class="fas fa-th"></i> Apps</li>
+                    <li><i class="fas fa-chart-bar"></i> Charts</li>
+                    <li><i class="fas fa-code"></i> Bootstrap</li>
+                    <li><i class="fas fa-plug"></i> Plugins</li>
+                    <li><i class="fas fa-cogs"></i> Widget</li>
+                    <li><i class="fas fa-file-alt"></i> Forms</li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="header">
+                <span class="dashboard"><i class="fas fa-bars"></i></span> <h2> Dashboard</h2>
+                <input type="text" placeholder="Search here...">
+                <div class="icons">
+                    <div class="icon-box">
+                        <i class="fas fa-envelope"></i>
+                        <span class="badge">6</span>
+                    </div>
+                    <div class="icon-box">
+                        <i class="fas fa-bell"></i>
+                        <span class="badge">4</span>
+                    </div>
+                    <div class="profile-box">
+                        <img src="image/profile1.jpg" alt="User">
+                        <span>Ragul <br><p>Super Admin</p></span>
+                        
+                    </div>
+                </div>
+            </header>
+            
+
+            <!-- Stats Cards -->
+            <section class="stats">
+                <div class="card star">
+                    <div class="card-content">
+                        <h3>78</h3>
+                        <p>Total Projects Handled</p>
+                    </div>
+                    <div class="card-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="card contact">
+                    <div class="card-content">
+                        <h3>214</h3>
+                        <p>Contacts You Have</p>
+                    </div>
+                    <div class="card-icon">
+                        <i class="fas fa-user"></i> 
+                    </div>
+                </div>
+                <div class="card task">
+                    <div class="card-content">
+                        <h3>93</h3>
+                        <p>Total Unfinished Tasks</p>
+                    </div>
+                    <div class="card-icon">
+                        <i class="fas fa-tasks"></i> 
+                    </div>
+                </div>
+                <div class="card message">
+                    <div class="card-content">
+                        <h3>12</h3>
+                        <p>Unread Messages</p>
+                    </div>
+                    <div class="card-icon">
+                        <i class="fas fa-envelope"></i> 
+                    </div>
+                </div>
+            </section>
+            
+
+            <!-- Chart Section -->
+            <section class="chart">
+                <h3>Project Created</h3>
+                <div class="chart-info">
+                    <p>
+                        <strong class="percentage">25%</strong> 
+                        <i class="fas fa-caret-up increase-icon"></i> 
+                        last month $563,443
+                    </p>
+                </div>
+            
+                <div class="bar-chart">
+                    <div class="bar-container">
+                        <div class="bar" style="height: 30px;"></div>
+                        <span class="bar-label">6</span>
+                    </div>
+                    <div class="bar-container">
+                        <div class="bar" style="height: 50px;"></div>
+                        <span class="bar-label">7</span>
+                    </div>
+                    <div class="bar-container">
+                        <div class="bar" style="height: 70px;"></div>
+                        <span class="bar-label">8</span>
+                    </div>
+                    <div class="bar-container">
+                        <div class="bar" style="height: 68px;"></div>
+                        <span class="bar-label">9</span>
+                    </div>
+                    <div class="bar-container">
+                        <div class="bar" style="height: 40px;"></div>
+                        <span class="bar-label">10</span>
+                    </div>
+                    <div class="bar-container">
+                        <div class="bar" style="height: 50px;"></div>
+                        <span class="bar-label">11</span>
+                    </div>
+                    <div class="bar-container">
+                        <div class="bar" style="height: 45px;"></div>
+                        <span class="bar-label">12</span>
+                    </div>
+                    <div class="bar-container">
+                        <div class="bar" style="height: 50px;"></div>
+                        <span class="bar-label">13</span>
+                    </div>
+                    <div class="bar-container">
+                        <div class="bar" style="height: 55px;"></div>
+                        <span class="bar-label">14</span>
+                    </div>
+                    <div class="bar-container">
+                        <div class="bar" style="height: 80px;"></div>
+                        <span class="bar-label">15</span>
+                    </div>
+                    <div class="bar-container">
+                        <div class="bar" style="height: 50px;"></div>
+                        <span class="bar-label">16</span>
+                    </div>
+                    <div class="bar-container">
+                        <div class="bar" style="height: 90px;"></div>
+                        <span class="bar-label">17</span>
+                    </div>
+                    <div class="bar-container">
+                        <div class="bar" style="height: 40px;"></div>
+                        <span class="bar-label">18</span>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+    </div>
+</body>
+</html>
